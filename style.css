@@ -36,20 +36,25 @@
 .settings{
     display:none;
 }
+.icon-logo{
+    display: none;
+}
 @media only screen and (max-width:800px) {
     .navbar {
         background-color: #E1EBEF;
     }
-    
+    .logo{
+        text-align: center;
+        margin:auto;
+        flex: 10;
+    }
     .navbar h3 {
         color: #073B4C;
     }
-    
     .navbar-desctop {
         display: none;
         background-color: #fff;
     }
-    
     .mobile-list {
         display: flex;
         bottom: 0;
@@ -86,5 +91,20 @@
         justify-content: end;
         padding: 0;
         margin: 0;
+        margin-top: 10px;
+    }
+    .icon-logo{
+        display: flex;
+        flex: 1;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .icon-logo img{
+        border-radius: 3rem;
+        height: 50px;
+        width: 50px;
+        margin-top: 5px;
+    
     }
 }
