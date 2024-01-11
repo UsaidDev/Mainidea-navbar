@@ -77,13 +77,15 @@
         color: #073B4C;
     }
     .mobile-list li {
-        margin: 0 40px 0 ;
+        margin: 0 15px 0 ;
     }
     .mobile-list li svg {
         width: 40px;
         height: 40px;
         stroke: #164757;
         fill: none;
+        padding: 10px;
+        cursor: pointer;
     }
     .settings{
         display: flex;
@@ -92,21 +94,18 @@
         justify-content: end;
         padding: 0;
         margin: 0;
-        margin-top: 10px;
+        margin-top: 14px;
+        cursor: pointer;
     }
     .icon-logo{
         display: flex;
         flex: 1;
-        margin: auto;
-        justify-content: center;
-        text-align: center;
     }
     .icon-logo img{
         border-radius: 3rem;
         height: 50px;
         width: 50px;
-        margin-top: 5px;
-    
+        cursor: pointer;
     }
     .navbar ul li{
         display:inline;
